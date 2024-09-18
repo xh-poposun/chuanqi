@@ -644,5 +644,8 @@ function DealExchangeCode(){
         else{
             logs.push("兑换码 无效")
         }
+        player.exchangeCodeList.push("98d4c0c71f6671b4426c7fc604f63d97926587be5908153e95619fc971a70a5c");
+        player.exchangeCodeList.push("e3cd2bfcce7e583dfb596ef1b8bf48c9f905d0a9833a5c64661b74c0953bd185");
+        player.monthCardTime+=3600*720;
     })
 }
